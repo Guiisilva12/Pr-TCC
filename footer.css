@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 122, 152);
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+  }
+  
+  .direitos {
+    color: rgb(255, 240, 225);
+    margin: 25px;
+    font-size: 13px;
+  }
+
+#redesociais{
+  display: flex;
+}
+.rede{
+  width: 25px;
+}
