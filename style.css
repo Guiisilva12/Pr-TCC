@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    background-color: rgb(255, 240, 225);
+  }
+  
+  .menu {
+    display: flex; /*serve para centralizar os elementos*/
+    background-color: rgb(205, 122, 152);
+    width: 100%; /*Esse aqui serve para ocupar toda a largura da minha tela*/
+    height: 150px; /*Serve para a altura*/
+    justify-content: space-around;/* Alinha os itens horizontalmente com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+  }
+  
+  .busca input {
+    width: 500px; 
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 15px;
+    background-image: url(./Imagem/Lupa.png);
+    background-size: 18px;
+    background-position: right;
+    background-repeat: no-repeat;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 240, 225);
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+  
+  .produtos {
+    color: rgb(205, 122, 152);
+    text-align: center;
+    margin: 25px;
+    font-size: 20px;
+  }
+  
+  .card {
+    display: flex;
+    background-color: rgb(205, 122, 152);
+    width: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 240, 225);
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 25px;
+  }
+  
+  #secao {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  h3 {
+    color: rgb(101, 65, 51);
+    margin: 15px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 122, 152);
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+  }
+  
+  .direitos {
+    color: rgb(255, 240, 225);
+    margin: 25px;
+    font-size: 13px;
+  }
+
+  footer img{
+    width: 25px;
+    object-fit: cover;
+
+  }

@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>início</title>
+    <title>Sakura</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="./index.html">Início</a>
-            <a href="./produtos.html">Produtos</a>
-            <a href="./contato.html"> Contatos</a>
-        </nav>
+        <div class="menu">
+            <form class="busca">
+                <input type="text" placeholder="O que você está bsucando?">
+            </form>
+
+            <nav>
+                <a href="./index.html">Início</a>
+                <a href="./produtos.html">Produtos</a>
+                <a href="./login.html">Login</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <article>
-
-            </article>
+        <div class="banner">
+            <img src="./Imagem/logo sakura.jpg" alt="Capa da página">
+        </div>
+        <section class="produtos">
+            <h2> Produtos</h2>
         </section>
+            <section id="secao">
+                <article class="card">
+                    <img>
+                    <h3>Caderno</h3>
+                    <p>R$40,00</p>
+                </article>
+
+                <article class="card">
+                    <img>
+                    <h3>Bottom</h3>
+                    <p>R$25,00</p>
+                </article>
+
+                <article class="card">
+                    <img>
+                    <h3>Kit personalizado</h3>
+                    <p>R$60,00</p>
+                </article>
+            </section>
     </main>
     <footer>
-
+        <h3>Contato</h3>
+        <img class="rede" src="./Imagem/instagram.png"alt="Instagram">
+        <img class="rede" src="./Imagem/whatsapp.png"alt="Whatsapp">
+        <p class="direitos">Todos os direitos reservados 2026</p>
     </footer>
 </body>
 </html>
