@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+/*marrom: #654133 rosa: #CD7A98 creme:#FFF0E1*/
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(255, 240, 225);
+
+}
+
+.historia {
+  color: rgb(101, 65, 51);
+  text-align: center;
+  margin: 100px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: rgb(101, 65, 51);
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.menu {
+  display: flex;
+  /*serve para centralizar os elementos*/
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  /*Esse aqui serve para ocupar toda a largura da minha tela*/
+  height: 150px;
+  /*Serve para a altura*/
+  justify-content: space-around;
+  /* Alinha os itens horizontalmente com espaço entre eles */
+  align-items: center;
+  /* Alinha os itens verticalmente ao centro */
+  font-family: "Young Serif", serif;
+
+}
+
+
+.busca input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  background-image: url(./Imagem/Lupa.png);
+  background-size: 18px;
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  height: 150px;
+  margin-top: 200px;
+  align-items: center;
+}
+
+footer img {
+  width: 25px;
+  object-fit: cover;
+  margin: 10px;
+}
