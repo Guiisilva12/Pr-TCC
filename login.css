@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+/*marrom: #654133 rosa: #CD7A98 creme:#FFF0E1*/
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(255, 240, 225);
+
+}
+
+.menu {
+  display: flex;
+  /*serve para centralizar os elementos*/
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  /*Esse aqui serve para ocupar toda a largura da minha tela*/
+  height: 150px;
+  /*Serve para a altura*/
+  justify-content: space-around;
+  /* Alinha os itens horizontalmente com espaço entre eles */
+  align-items: center;
+  /* Alinha os itens verticalmente ao centro */
+  font-family: "Young Serif", serif;
+
+}
+
+h1 {
+  color: rgb(205, 122, 152);
+  text-align: center;
+  margin: 80px;
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: rgb(101, 65, 51);
+  font-size:25px;
+  text-align:center;
+
+}
+
+.busca input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  background-image: url(./Imagem/Lupa.png);
+  background-size: 18px;
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 240, 225);
+  margin: 20px;
+  font-size: 18px;
+}
+
+label {
+  color: rgb(101, 65, 51);
+  font-size: 20px;
+  font-family: "Young Serif", serif;
+
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dados input {
+  width: 600px;
+  min-height: 25px;
+  padding: 12px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 2px solid rgb(205, 122, 152);
+  outline: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size:18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  height: 150px;
+  font-size: 20px;
+}
+
+footer img {
+  width: 25px;
+  object-fit: cover;
+}
+
+.direitos {
+  color: rgb(255, 240, 225);
+  margin: 25px;
+  font-size: 13px;
+}

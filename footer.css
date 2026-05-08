@@ -1,23 +1,29 @@
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(205, 122, 152);
-    width: 100%;
-    height: 150px;
-    font-size: 20px;
-  }
-  
-  .direitos {
-    color: rgb(255, 240, 225);
-    margin: 25px;
-    font-size: 13px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+/*marrom: #654133 rosa: #CD7A98 creme:#FFF0E1*/
 
-#redesociais{
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  height: 150px;
+  font-size: 20px;
+}
+
+.direitos {
+  color: rgb(255, 240, 225);
+  margin: 25px;
+  font-size: 13px;
+}
+
+#redesociais {
   display: flex;
 }
-.rede{
+
+.rede {
   width: 25px;
   display: inline-block;
-  margin:10px;
+  margin: 10px;
 }
