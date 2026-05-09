@@ -12,20 +12,30 @@
 
 body {
   background-color: rgb(255, 240, 225);
+}
 
+
+img { /*Imagens do meu rodapé*/
+  width: 200px;
+  /* Ajusta a largura */
+  height: auto;
+  /* Mantém a proporção da imagem para não amassar */
+  margin-right: 20px;
+  /* Dá um espaço entre a logo e a barra de busca *//
 }
 
 .historia {
   color: rgb(101, 65, 51);
   text-align: center;
   margin: 100px;
+  font-size: 30px;
 }
 
-h2 {
-  font-family: "Young Serif", serif;
-  color: rgb(101, 65, 51);
+p {
+  font-family: "Cormorant Garamond", serif;
   font-size: 25px;
-  margin-top: 25px;
+  padding-left: 20px;
+  color: rgb(101, 65, 51);
 }
 
 .menu {
@@ -41,7 +51,6 @@ h2 {
   align-items: center;
   /* Alinha os itens verticalmente ao centro */
   font-family: "Young Serif", serif;
-
 }
 
 
@@ -59,6 +68,12 @@ h2 {
   font-size: 18px;
 }
 
+nav a {
+  text-decoration: none;
+  color: rgb(255, 240, 225);
+  margin: 20px;
+  font-size: 18px;
+}
 
 footer {
   display: flex;
@@ -74,4 +89,11 @@ footer img {
   width: 25px;
   object-fit: cover;
   margin: 10px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: rgb(101, 65, 51);
+  font-size: 25px;
+  margin-top: 20px;
 }
