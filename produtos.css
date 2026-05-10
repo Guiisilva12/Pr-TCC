@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+/*marrom: #654133 rosa: #CD7A98 creme:#FFF0E1*/
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(255, 240, 225);
+}
+
+
+#logo { /*Imagens do meu rodapé*/
+  width: 140px;
+  /* Ajusta a largura */
+  height: auto;
+  /* Mantém a proporção da imagem para não amassar */
+  margin-right: 20px;
+  /* Dá um espaço entre a logo e a barra de busca *//
+}
+
+.menu {
+  display: flex;
+  /*serve para centralizar os elementos*/
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  /*Esse aqui serve para ocupar toda a largura da minha tela*/
+  height: 150px;
+  /*Serve para a altura*/
+  justify-content: space-around;
+  /* Alinha os itens horizontalmente com espaço entre eles */
+  align-items: center;
+  /* Alinha os itens verticalmente ao centro */
+  font-family: "Young Serif", serif;
+}
+
+
+.busca input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  background-image: url(./Imagem/Lupa.png);
+  background-size: 18px;
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 240, 225);
+  margin: 20px;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(205, 122, 152);
+  width: 100%;
+  height: 150px;
+  margin-top: 200px;
+  align-items: center;
+}
+
+footer img {
+  width: 25px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+#contato {
+  font-family: "Cormorant Garamond", serif;
+  color: #FFF0E1;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+ #Secao_um{
+    color: #654133;
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .barra_produtos{
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    padding: 9px;
+  }
+  .barra_produtos img{
+    display: flex;
+    height: 246px;
+    width: 246px;
+    padding: 10px;
+    object-fit: cover;
+  }
+
+  .barra_produtos:hover img{
+    transform: scale(1.03);
+    transition: 0.6s;
+  }
+
+  .descricao{
+    font-family:"Young Serif", serif;
+    font-size: 14px;
+    color: #654133;
+  }
+
+  .linha_preço{
+    display: flex;
+    align-items: center;
+  }
+
+  .preco{
+    font-family:"Young Serif", serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #654133;
+    margin-left: 4px;
+  }
+
+.desconto{
+    font-family:"Young Serif", serif;
+    font-size:17px;
+    color:rgb(205, 122, 152);
+    margin-left: 15px;
+  }
+
+  .parcela{
+    font-family:"Young Serif", serif;
+    font-size: 11px;
+    color:rgb(205, 122, 152);
+  }
+
+  .barra_produtos button{
+    background-color: rgb(205, 122, 152);
+    color: white;
+    font-family:  "Young Serif", serif;
+    font-size: 12px;
+    border: none;
+    margin-top: 15px;
+    padding: 6px 11px;
+    border-radius: 8px;
+  }
