@@ -14,8 +14,8 @@ body {
 }
 
 img {
-  width: 200px;
-  /* Ajuste a largura conforme o seu gosto */
+  width: 140px;
+  /* Ajuste a largura */
   height: auto;
   /* Mantém a proporção da imagem para não amassar */
   margin-right: 20px;
@@ -39,8 +39,8 @@ img {
 
 h1 {
   color: rgb(205, 122, 152);
-  text-align: center;
-  margin: 80px;
+  text-align: center; /* esse aqui serve para centralizar o texto*/
+  margin: 80px; 
   font-size: 40px;
   font-family: "Young Serif", serif;
 }
@@ -111,7 +111,7 @@ footer img {
 
 h2 {
   font-family: "Young Serif", serif;
-  color: rgb(101, 65, 51);
+  color:rgb(255, 240, 225);
   font-size: 25px;
   margin-top: 20px;
 }
