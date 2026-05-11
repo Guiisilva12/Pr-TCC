@@ -48,13 +48,13 @@ h1 {
 
 
 .busca input {
-  width: 500px;
-  padding: 10px;
-  border-radius: 20px;
-  border: none;
-  margin-bottom: 15px;
+  width: 500px; /* serve para ajeitar a minha largura*/
+  padding: 10px; /* é o meu espaço interno do meu elemento */
+  border-radius: 20px; /*raio da borda do elemento do meu site*/
+  border: none; /*serve para remover o sublinhado*/
+  margin-bottom: 15px; /*serve para criar espaços externo abaixo do elemento*/
   background-image: url(./Imagem/Lupa.png);
-  background-size: 18px;
+  background-size: 18px; 
   background-position: right;
   background-repeat: no-repeat;
   font-family: "Cormorant Garamond", serif;
@@ -88,9 +88,21 @@ label {
   border-radius: 20px;
   margin: 20px;
   border: 2px solid rgb(205, 122, 152);
-  outline: none;
+  outline: none; 
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
+}
+
+.dados button{
+  width: 200px;
+  padding: 12px;
+  background-color: rgb(205, 122, 152);
+  color: rgb(255, 240, 225);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-family: "Young Serif", serif;
+  font-size: 15px;
 }
 
 footer {
