@@ -16,7 +16,7 @@ body {
 
 
 img { /*Imagens do meu rodapé*/
-  width: 200px;
+  width: 140px;
   /* Ajusta a largura */
   height: auto;
   /* Mantém a proporção da imagem para não amassar */
@@ -93,7 +93,7 @@ footer img {
 
 h2 {
   font-family: "Young Serif", serif;
-  color: rgb(101, 65, 51);
+  color: rgb(255, 240, 225);
   font-size: 25px;
   margin-top: 20px;
 }
