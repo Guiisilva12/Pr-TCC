@@ -3,18 +3,18 @@
 /*marrom: #654133 rosa: #CD7A98 creme:#FFF0E1*/
 
 * {
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
+  box-sizing: border-box; /* serve para incluir o padding e a borda dentro da largura total do elemento */
+  margin: 0%; /* serve para remover a margem padrão dos elementos */
+  padding: 0%; /* serve para remover o preenchimento padrão dos elementos */
 }
 
 body {
-  background-color: rgb(255, 240, 225);
+  background-color: rgb(255, 240, 225); /* serve para definir a cor de fundo da página */
 
 }
 
-img {
-  width: 140px;
+img { /* serve para definir as propriedades das imagens */
+  width: 140px;  /* Define a largura da imagem */
   /* Ajuste a largura */
   height: auto;
   /* Mantém a proporção da imagem para não amassar */
@@ -40,9 +40,9 @@ img {
 h1 {
   color: rgb(205, 122, 152);
   text-align: center; /* esse aqui serve para centralizar o texto*/
-  margin: 80px; 
-  font-size: 40px;
-  font-family: "Young Serif", serif;
+  margin: 80px; /* serve para criar um espaço externo ao redor do elemento */
+  font-size: 40px; /* serve para definir o tamanho da fonte do texto */
+  font-family: "Young Serif", serif; /* serve para definir a fonte do texto */
 }
 
 
@@ -53,56 +53,56 @@ h1 {
   border-radius: 20px; /*raio da borda do elemento do meu site*/
   border: none; /*serve para remover o sublinhado*/
   margin-bottom: 15px; /*serve para criar espaços externo abaixo do elemento*/
-  background-image: url(./Imagem/Lupa.png);
-  background-size: 18px; 
-  background-position: right;
-  background-repeat: no-repeat;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+  background-image: url(./Imagem/Lupa.png); /*serve para colocar a imagem de fundo no meu input*/
+  background-size: 18px;  /*serve para definir o tamanho da imagem de fundo*/
+  background-position: right; /*serve para posicionar a imagem de fundo à direita do input*/
+  background-repeat: no-repeat; /*serve para evitar que a imagem de fundo se repita*/
+  font-family: "Cormorant Garamond", serif; 
+  font-size: 18px; /* serve para definir o tamanho da fonte do texto dentro do input */
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: none; /* serve para remover o sublinhado dos links */
   color: rgb(255, 240, 225);
-  margin: 20px;
-  font-size: 18px;
+  margin: 20px;  /* serve para criar um espaço externo ao redor dos links */
+  font-size: 18px; /* serve para definir o tamanho da fonte dos links */
 }
 
 label {
   color: rgb(101, 65, 51);
-  font-size: 20px;
+  font-size: 20px; /* serve para definir o tamanho da fonte do texto */
   font-family: "Young Serif", serif;
 }
 
 .dados {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  display: flex; /* serve para organizar os elementos em um layout flexível */
+  flex-direction: column;  /* serve para organizar os elementos em uma coluna */
+  align-items: center; /* serve para centralizar os elementos horizontalmente */
+  width: 100%; /* serve para ocupar toda a largura disponível */
 }
 
 .dados input {
-  width: 600px;
-  min-height: 25px;
-  padding: 12px;
-  border-radius: 20px;
-  margin: 20px;
+  width: 600px; /* serve para definir a largura dos campos de entrada */
+  min-height: 25px;  /* serve para definir a altura mínima dos campos de entrada */
+  padding: 12px; /* serve para criar um espaço interno ao redor do conteúdo dos campos de entrada */
+  border-radius: 20px; /* serve para criar bordas arredondadas nos campos de entrada */
+  margin: 20px; /* serve para criar um espaço externo ao redor dos campos de entrada */
   border: 2px solid rgb(205, 122, 152);
-  outline: none; 
+  outline: none; /* serve para remover a borda de foco padrão dos campos de entrada */
   font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+  font-size: 18px; /* serve para definir o tamanho da fonte do texto dentro dos campos de entrada */
 }
 
-.dados button{
-  width: 200px;
-  padding: 12px;
+.dados button{ /* serve para definir as propriedades do botão de login */
+  width: 200px; /* serve para definir a largura do botão de login */
+  padding: 12px; /* serve para criar um espaço interno ao redor do conteúdo do botão de login */
   background-color: rgb(205, 122, 152);
   color: rgb(255, 240, 225);
-  border: none;
-  border-radius: 20px;
-  margin-top: 10px;
+  border: none; /* serve para remover a borda do botão de login */
+  border-radius: 20px; /* serve para criar bordas arredondadas no botão de login */
+  margin-top: 10px; /* serve para criar um espaço externo acima do botão de login */
   font-family: "Young Serif", serif;
-  font-size: 15px;
+  font-size: 15px; /* serve para definir o tamanho da fonte do texto dentro do botão de login */
 }
 
 footer {
@@ -117,7 +117,7 @@ footer {
 
 footer img {
   width: 25px;
-  object-fit: cover;
+  object-fit: cover; /* serve para garantir que a imagem seja redimensionada corretamente sem distorção */
   margin: 10px;
 }
 
@@ -125,5 +125,5 @@ h2 {
   font-family: "Young Serif", serif;
   color:rgb(255, 240, 225);
   font-size: 25px;
-  margin-top: 20px;
+  margin-top: 20px; /* serve para criar um espaço externo acima do título */
 }

@@ -55,15 +55,15 @@ p {
 
 
 .busca input {
-  width: 500px;
-  padding: 10px;
-  border-radius: 20px;
-  border: none;
-  margin-bottom: 15px;
+  width: 500px; /* serve para ajeitar a minha largura*/
+  padding: 10px; /* serve para criar um espaço interno ao redor do conteúdo do input */
+  border-radius: 20px; /* serve para criar bordas arredondadas no input */
+  border: none; /* serve para remover a borda do input */
+  margin-bottom: 15px; /* serve para criar um espaço externo abaixo do input */
   background-image: url(./Imagem/Lupa.png);
   background-size: 18px;
-  background-position: right;
-  background-repeat: no-repeat;
+  background-position: right; /* serve para posicionar a imagem de fundo à direita do input */
+  background-repeat: no-repeat; /* serve para evitar que a imagem de fundo se repita */
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
 }
